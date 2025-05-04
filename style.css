@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #002366;
+    color: white;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 30%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #003399;
+    padding: 10px 0;
+  }
+  
+  .navbar a img {
+    margin: 0 15px;
+    height: 60px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .profile {
+    display: flex;
+    background-color: #0044cc;
+    padding: 20px;
+    border-radius: 2px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  
+  .profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-box {
+    background-color: #0044cc;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .logo {
+    max-width: 100px;
+    margin-bottom: 10px;  
+    
+  } 
+  .lecture-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .lecture-box {
+    background-color: #0044cc;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .blog-post {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .blog-post-title {
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  
+  .blog-post-date {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .blog-post-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .blog-post-body p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin-bottom: 15px;
+  }
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .blog-entry {
+    display: flex;
+    background-color: #003399; /* blue box */
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+  }
+  
+  .blog-entry:hover {
+    background-color: #003399; /* darker blue on hover */
+  }
+  
+  .blog-thumb {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .blog-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .blog-title {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .blog-date {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    opacity: 0.8;
+  }
+  .report-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .report-entry {
+    display: flex;
+    background-color: #003399;
+    border: 2px solid #003399;
+    border-radius: 12px;
+    padding: 15px;
+    align-items: flex-start;
+    gap: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .report-pfp {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #003399;
+  }
+  
+  .report-info {
+    flex: 1;
+  }
+  
+  .report-name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #FFFFFF;
+  }
+  
+  .report-desc {
+    margin-top: 5px;
+    font-size: 1em;
+    color: #FFFFFF;
+  }
+      
